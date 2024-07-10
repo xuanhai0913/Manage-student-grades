@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+/* Header */
+header {
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.header-login {
+    margin-right: 20px;
+}
+
+.header-login a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Form lọc */
+#filter-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#filter-form label {
+    margin-right: 10px;
+    align-self: center;
+}
+
+#filter-form select, #filter-form input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#filter-form input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#filter-form input[type="submit"]:hover {
+    background-color: #334d84;
+}
+
+/* Bảng sinh viên */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dddfe2;
+}
+
+thead {
+    background-color: #f5f6f7;
+    color: #4b4f56;
+}
+
+/* Footer */
+footer {
+    background-color: #3b5998;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    text-align: left;
+    flex: 1;
+    max-width: 70%;
+    margin-right: 20px;
+}
+
+.footer-content h2 {
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    color: #dfe3ee;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-download {
+    text-align: right;
+}
+
+.footer-download p {
+    margin-bottom: 10px;
+}
+
+.footer-download img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DAI HOC GTVT HCM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="logo.png" alt="Logo DAI HOC GTVT HCM" width="80" height="80">
+        </div>
+        <h1>Danh Sách Sinh Viên Đạt Điểm Cao</h1>
+        <div class="header-login">
+            <!-- Thêm mục đăng nhập/đăng ký nếu cần -->
+            <a href="#">Đăng nhập</a> | <a href="#">Đăng ký</a>
+        </div>
+    </header>
+
+    <form id="filter-form">
+        <label for="class-selection">Lớp:</label>
+        <select id="class-selection">
+            <option value="all">Tất cả</option>
+            <option value="K62">K62</option>
+            <option value="K63">K63</option>
+            <option value="K64">K64</option>
+            <option value="K65">K65</option>
+        </select>
+        <label for="search-keyword">Tìm kiếm:</label>
+        <input id="search-keyword" type="text" placeholder="Tìm kiếm theo tên" />
+        <input id="submit" type="submit" value="Lọc" />
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>TÊN</th>
+                <th>LỚP</th>
+            </tr>
+        </thead>
+        <tbody id="students">
+        </tbody>
+    </table>
+
+    <footer>
+        <div class="footer-content">
+            <h2>Liên Hệ</h2>
+            <p>Email: <a href="mailto:nxhai0913@gmail.com">nxhai0913@gmail.com</a></p>
+            <p>Số điện thoại: <a href="tel:+84929501116">0929501116</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/nguyenhai0913" target="_blank">Nguyễn Xuân Hải</a></p>
+        </div>
+        <div class="footer-download">
+            <p>Nhấp vào logo để xem CV</p>
+            <a href="NGUYEN XUAN HAI - Full-Stack Dev Intern.pdf" download><img src="logo.png" alt="Download PDF"></a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
