@@ -51,5 +51,7 @@ CSS3
 JavaScript (cho các tính năng tương tác như lọc danh sách sinh viên)
 
 ## Tác giả
+
 Nguyễn Xuân Hải
+
 <img src="./imgs/GetCV.png" />
