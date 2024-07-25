@@ -52,4 +52,4 @@ JavaScript (cho các tính năng tương tác như lọc danh sách sinh viên)
 
 ## Tác giả
 Nguyễn Xuân Hải
-<img src="./image/GetCV.png" />
+<img src="./imgs/GetCV.png" />
